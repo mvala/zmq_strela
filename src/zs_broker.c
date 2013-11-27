@@ -30,7 +30,7 @@ void usage(void)
     printf(" -v                  : for verbos\n");
     printf("\n");
     printf("Example:");
-    printf(" zs_broker -w tpc://*:5555 -c tpc://5556\n");
+    printf(" zs_broker -w tpc://*:5555 -c tpc://*:5556\n");
     printf("\n");
     exit(1);
 }

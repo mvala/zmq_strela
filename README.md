@@ -9,16 +9,16 @@ To install you do
 To run broker (first terminal)
 
     source $ZMQ_STRELA/scripts/env.sh
-    zs_broker
+    zs_broker -w tcp://*:5555 -c tcp://*:5556
 
 Let's start few clients (second and third terminal)
 
     source $ZMQ_STRELA/scripts/env.sh
-    zs_client
+    zs_client -b tcp://localhost:5556
 
 And let's send some message from worker (forth terminal)
 
     source $ZMQ_STRELA/scripts/env.sh
-    zs_worker -m "My Message"
+    zs_worker -b tcp://localhost:5555 -m "My Message"
 
 And now you should see in second and third terminal message "My Message"
