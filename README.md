@@ -20,3 +20,5 @@ And let's send some message from worker (forth terminal)
 
     source $ZMQ_STRELA/scripts/env.sh
     zs_worker -m "My Message"
+
+And now you should see in second and third terminal message "My Message"
