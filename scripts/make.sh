@@ -1,6 +1,9 @@
 #!/bin/bash
 
 MY_PWD=`pwd`
+export ZMQ="$HOME/zmq"
+export CZMQ="$HOME/zmq"
+
 
 PROJECT_DIR="$(dirname $(dirname $(readlink -m $0)))"
 DO_INSTALL=0
