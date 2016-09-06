@@ -1,7 +1,7 @@
-zmena mucha
+=======
+mvala zaciatok
 
-to straci
-
+mucha OK
 
 strela
 ======
