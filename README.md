@@ -1,5 +1,7 @@
 zmena mucha
 
+to straci
+
 
 strela
 ======
