@@ -1,8 +1,3 @@
-=======
-mvala zaciatok
-
-mucha OK
-
 strela
 ======
 
@@ -27,5 +22,3 @@ And let's send some message from worker (forth terminal)
     zs_worker -b tcp://localhost:5555 -m "My Message"
 
 And now you should see in second and third terminal message "My Message"
-
-Test
